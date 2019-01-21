@@ -1,0 +1,8 @@
+REMI is a table game where 2 to 4 players play against each other to obtain the maximum of points. 
+The results of each game are written down and summed up to determine the final winner.
+
+This app automates the writing dowm:
+one screen where you enter the names of the players,
+one screen where the results of each game are entered and elaborated by the app:
+  maintain who's turn it is to start, remember atut and who closes and bring these into account, calculate total.
+one screen to see the list of all the games up to this point.
