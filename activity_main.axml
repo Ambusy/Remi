@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">    
+        <TextView
+            android:id="@+id/JocNou"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Jocători:"
+			android:gravity="center"
+            android:textSize="18sp"/>
+        <EditText
+            android:id="@+id/Jocatorul1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/JocNou"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:ems="15"
+            android:hint="jucătorul 1"
+            android:inputType="textMultiLine">
+            <requestFocus />
+        </EditText>
+        <EditText
+            android:id="@+id/Jocatorul2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Jocatorul1"
+            android:layout_alignParentStart="true"
+            android:ems="15"
+            android:hint="jucătorul 2"
+            android:inputType="textMultiLine"/> 
+        <EditText
+            android:id="@+id/Jocatorul3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Jocatorul2"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:ems="15"
+            android:hint="jucătorul 3"
+            android:inputType="textMultiLine"/>
+        <EditText
+            android:id="@+id/Jocatorul4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Jocatorul3"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:ems="15"
+            android:hint="jucătorul 4"
+            android:inputType="textMultiLine"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/Jocatorul4">
+            <Button
+                android:id="@+id/buttonStart"
+               android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Incepe jocul" />
+            <Button
+                android:id="@+id/buttonFill"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="invisible"
+                android:text="xxxxxxxxxx" />
+            <Button
+                android:id="@+id/buttonCont"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Continua jocul" />			
+        </LinearLayout>
+    </RelativeLayout>

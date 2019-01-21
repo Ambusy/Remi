@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<TableLayout
+		android:stretchColumns="0,1,2,3,4"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+		<TableRow
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text="Jocator"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" /> 
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceMedium"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player1name" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceMedium"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player2name" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceMedium"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"   
+				android:id="@+id/player3name" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceMedium"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player4name" />  
+		</TableRow>
+		<TableRow
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text="Puncte"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" /> 
+			<EditText       
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				android:inputType="numberSigned"
+				android:id="@+id/player1score" />  
+			<EditText        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				android:inputType="numberSigned"
+				android:id="@+id/player2score" />  
+			<EditText        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				android:inputType="numberSigned"
+				android:id="@+id/player3score" />  
+			<EditText        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				android:inputType="numberSigned"
+				android:id="@+id/player4score" />  
+		</TableRow>
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceSmall"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"/>  
+		</TableRow>
+		<TableRow
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text="Atout"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" /> 
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player1atout" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player2atout" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player3atout" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player4atout" />  
+		</TableRow>
+		<TableRow
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text="Inchis"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" /> 
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player1inchis" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player2inchis" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player3inchis" />  
+			<Button        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" 
+				style="?android:attr/borderlessButtonStyle"
+				android:gravity="left|center_vertical"
+				android:id="@+id/player4inchis" />  
+		</TableRow>
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceSmall"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"/>  
+		</TableRow>
+		<TableRow
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text="Total"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content" /> 
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player1total" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player2total" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"   
+				android:id="@+id/player3total" />  
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceLarge"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"  
+				android:id="@+id/player4total" />  
+		</TableRow>
+		<TableRow
+			android:layout_height="wrap_content"
+			android:layout_width="fill_parent">
+			<TextView        
+				android:text=""        
+				android:textAppearance="?android:attr/textAppearanceSmall"        
+				android:layout_width="wrap_content"        
+				android:layout_height="wrap_content"/>  
+		</TableRow>
+	</TableLayout>
+	<LinearLayout
+		android:orientation="horizontal"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content">		
+		<Button
+			android:id="@+id/buttonList"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Lista" /> 
+		<Switch 
+			android:text="Joc dublu?"
+			android:id="@+id/jocDublu"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"/>
+		<Button
+			android:id="@+id/buttonRand"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:text="Randul nou" /> 
+		<Button
+			android:id="@+id/buttonCor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:visibility="invisible"
+			android:text="Corecție" /> 
+	</LinearLayout>
+</LinearLayout>
